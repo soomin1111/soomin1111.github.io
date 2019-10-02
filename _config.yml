@@ -110,7 +110,7 @@ author:
   name             : "SOOMIN KIM"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "신입 개발자 공부하기!!!!!"
-  location         : "Somewhere"
+ # location         : "Somewhere"
   email            : tnals5526@naver.com
   links:
     - label: "Email"
@@ -127,7 +127,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/soomin1111"
+      url: "https://github.com/soomin1111"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
