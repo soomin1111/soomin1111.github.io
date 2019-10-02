@@ -107,11 +107,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "SOOMIN KIM"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "신입 개발자 공부하기!!!!!"
   location         : "Somewhere"
-  email            :
+  email            : tnals5526@naver.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
