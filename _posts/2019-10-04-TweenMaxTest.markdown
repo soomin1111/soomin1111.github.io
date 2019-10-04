@@ -1,5 +1,5 @@
 ---
-title: "TweenMax Test"
+title: "TweenMax x,y 이동"
 layout: post
 date: 2019-10-04 17:31
 image: /assets/images/markdown.jpg
