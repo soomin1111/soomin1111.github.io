@@ -5,12 +5,13 @@ date: 2019-10-04 17:31
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- test
 - tweenmax
 category: TweenMax
 author: soomin
 #description: Markdown summary with different options
+
 ---
+
 TweenMax x,y 이동
 
 <p class="codepen" data-height="265" data-theme-id="0" data-default-tab="css,result" data-user="soomini" data-slug-hash="XWWroPV" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="XWWroPV">
