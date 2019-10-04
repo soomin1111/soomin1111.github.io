@@ -8,7 +8,7 @@ tag:
 - markdown
 - components
 - extra
-category: TweenMax
+category: blog
 author: jamesfoster
 description: Markdown summary with different options
 ---
