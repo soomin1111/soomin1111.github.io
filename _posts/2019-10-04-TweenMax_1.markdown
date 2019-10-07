@@ -1,5 +1,5 @@
 ---
-title: "TweenMax x,y 이동"
+title: "TweenMax 기초"
 layout: post
 date: 2019-10-04 17:31
 image: /assets/images/markdown.jpg
@@ -12,11 +12,22 @@ author: soomin
 
 ---
 
-TweenMax x,y 이동
+## 트윈 사용법
 
-<p class="codepen" data-height="265" data-theme-id="0" data-default-tab="css,result" data-user="soomini" data-slug-hash="XWWroPV" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="XWWroPV">
-  <span>See the Pen <a href="https://codepen.io/soomini/pen/XWWroPV">
-  XWWroPV</a> by soomin (<a href="https://codepen.io/soomini">@soomini</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+가장 일반적은 유형은 TweenLite.to()이다.
+
+{% highlight html %}
+  var obj = document.getElementById('obj');
+  TweenLite.to(obj, 2, {width:'200px', height:'150px'});
+
+  //TweenLite.to(target,2,{x:'',y:'',rotation:'',ease:'',delay:'',....})
+{% endhighlight %}
+
+위 코드는 2초동안 obj의 width, height값을 tween한다.
+
+
+target은 tween 속성에 영향을 받는 대상 객체(객체 배열)이다.
+
+{% highlight html %}
+  TweenLite.to([obj1, obj2, obj3],1,{opacity:0.5, rotation:45});
+{% endhighlight %}
